@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Type" representedClassName="Type" syncable="YES">
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+        <relationship name="wine" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Wine" inverseName="type" inverseEntity="Wine"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="typeName"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Wine" representedClassName="Wine" syncable="YES">
+        <attribute name="comments" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="grape" optional="YES" attributeType="String"/>
+        <attribute name="hasRegion" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="region" optional="YES" attributeType="String"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Type" inverseName="wine" inverseEntity="Type"/>
+    </entity>
+    <elements>
+        <element name="Type" positionX="-54" positionY="0" width="128" height="73"/>
+        <element name="Wine" positionX="-63" positionY="-18" width="128" height="193"/>
+    </elements>
 </model>

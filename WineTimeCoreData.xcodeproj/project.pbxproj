@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24A416424891FE100B93834 /* Notification-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A416224891FE100B93834 /* Notification-Extension.swift */; };
+		C24A416524891FE100B93834 /* Publishers-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A416324891FE100B93834 /* Publishers-Extension.swift */; };
+		C24A41672489201300B93834 /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A41662489201300B93834 /* KeyboardAdaptive.swift */; };
 		C2E893452486989F00105078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E893442486989F00105078 /* AppDelegate.swift */; };
 		C2E893472486989F00105078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E893462486989F00105078 /* SceneDelegate.swift */; };
 		C2E8934A2486989F00105078 /* WineTimeCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2E893482486989F00105078 /* WineTimeCoreData.xcdatamodeld */; };
@@ -14,10 +17,23 @@
 		C2E8934E248698A300105078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E8934D248698A300105078 /* Assets.xcassets */; };
 		C2E89351248698A300105078 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E89350248698A300105078 /* Preview Assets.xcassets */; };
 		C2E89354248698A300105078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E89352248698A300105078 /* LaunchScreen.storyboard */; };
+		C2E8935F24869BD600105078 /* Wine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8935B24869BD600105078 /* Wine+CoreDataClass.swift */; };
+		C2E8936024869BD600105078 /* Wine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8935C24869BD600105078 /* Wine+CoreDataProperties.swift */; };
+		C2E8936124869BD600105078 /* Type+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8935D24869BD600105078 /* Type+CoreDataClass.swift */; };
+		C2E8936224869BD600105078 /* Type+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8935E24869BD600105078 /* Type+CoreDataProperties.swift */; };
+		C2E893642486AB2900105078 /* WineDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E893632486AB2900105078 /* WineDetailsView.swift */; };
+		C2E893662486CCDA00105078 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E893652486CCDA00105078 /* ImagePicker.swift */; };
+		C2E893682486CD3100105078 /* WineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E893672486CD3100105078 /* WineImageView.swift */; };
+		C2E8936C2486D85C00105078 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8936B2486D85C00105078 /* SectionView.swift */; };
+		C2E8936E2486D86300105078 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8936D2486D86200105078 /* RowView.swift */; };
+		C2E893702486F3E500105078 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8936F2486F3E500105078 /* PriceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2E893412486989F00105078 /* WineTimeCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineTimeCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24A416224891FE100B93834 /* Notification-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification-Extension.swift"; sourceTree = "<group>"; };
+		C24A416324891FE100B93834 /* Publishers-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publishers-Extension.swift"; sourceTree = "<group>"; };
+		C24A41662489201300B93834 /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
+		C2E893412486989F00105078 /* Wine Time!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wine Time!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E893442486989F00105078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E893462486989F00105078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C2E893492486989F00105078 /* WineTimeCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WineTimeCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +42,16 @@
 		C2E89350248698A300105078 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2E89353248698A300105078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E89355248698A300105078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E8935B24869BD600105078 /* Wine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C2E8935C24869BD600105078 /* Wine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C2E8935D24869BD600105078 /* Type+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C2E8935E24869BD600105078 /* Type+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C2E893632486AB2900105078 /* WineDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDetailsView.swift; sourceTree = "<group>"; };
+		C2E893652486CCDA00105078 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C2E893672486CD3100105078 /* WineImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineImageView.swift; sourceTree = "<group>"; };
+		C2E8936B2486D85C00105078 /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		C2E8936D2486D86200105078 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C2E8936F2486F3E500105078 /* PriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C24A416124891FCD00B93834 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				C24A416224891FE100B93834 /* Notification-Extension.swift */,
+				C24A416324891FE100B93834 /* Publishers-Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		C2E893382486989F00105078 = {
 			isa = PBXGroup;
 			children = (
+				C24A416124891FCD00B93834 /* extension */,
 				C2E893432486989F00105078 /* WineTimeCoreData */,
 				C2E893422486989F00105078 /* Products */,
 			);
@@ -50,7 +86,7 @@
 		C2E893422486989F00105078 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2E893412486989F00105078 /* WineTimeCoreData.app */,
+				C2E893412486989F00105078 /* Wine Time!.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +94,20 @@
 		C2E893432486989F00105078 /* WineTimeCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				C2E8935B24869BD600105078 /* Wine+CoreDataClass.swift */,
+				C2E8935C24869BD600105078 /* Wine+CoreDataProperties.swift */,
+				C2E8935D24869BD600105078 /* Type+CoreDataClass.swift */,
+				C2E8935E24869BD600105078 /* Type+CoreDataProperties.swift */,
 				C2E893442486989F00105078 /* AppDelegate.swift */,
 				C2E893462486989F00105078 /* SceneDelegate.swift */,
 				C2E8934B2486989F00105078 /* ContentView.swift */,
+				C2E8936B2486D85C00105078 /* SectionView.swift */,
+				C2E8936D2486D86200105078 /* RowView.swift */,
+				C2E893632486AB2900105078 /* WineDetailsView.swift */,
+				C2E8936F2486F3E500105078 /* PriceView.swift */,
+				C2E893672486CD3100105078 /* WineImageView.swift */,
+				C2E893652486CCDA00105078 /* ImagePicker.swift */,
+				C24A41662489201300B93834 /* KeyboardAdaptive.swift */,
 				C2E8934D248698A300105078 /* Assets.xcassets */,
 				C2E89352248698A300105078 /* LaunchScreen.storyboard */,
 				C2E89355248698A300105078 /* Info.plist */,
@@ -95,7 +142,7 @@
 			);
 			name = WineTimeCoreData;
 			productName = WineTimeCoreData;
-			productReference = C2E893412486989F00105078 /* WineTimeCoreData.app */;
+			productReference = C2E893412486989F00105078 /* Wine Time!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,10 +196,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24A416524891FE100B93834 /* Publishers-Extension.swift in Sources */,
 				C2E893452486989F00105078 /* AppDelegate.swift in Sources */,
+				C2E8936E2486D86300105078 /* RowView.swift in Sources */,
+				C24A41672489201300B93834 /* KeyboardAdaptive.swift in Sources */,
+				C2E893642486AB2900105078 /* WineDetailsView.swift in Sources */,
+				C24A416424891FE100B93834 /* Notification-Extension.swift in Sources */,
 				C2E893472486989F00105078 /* SceneDelegate.swift in Sources */,
 				C2E8934C2486989F00105078 /* ContentView.swift in Sources */,
 				C2E8934A2486989F00105078 /* WineTimeCoreData.xcdatamodeld in Sources */,
+				C2E8936124869BD600105078 /* Type+CoreDataClass.swift in Sources */,
+				C2E8936224869BD600105078 /* Type+CoreDataProperties.swift in Sources */,
+				C2E893702486F3E500105078 /* PriceView.swift in Sources */,
+				C2E893662486CCDA00105078 /* ImagePicker.swift in Sources */,
+				C2E8936C2486D85C00105078 /* SectionView.swift in Sources */,
+				C2E8936024869BD600105078 /* Wine+CoreDataProperties.swift in Sources */,
+				C2E8935F24869BD600105078 /* Wine+CoreDataClass.swift in Sources */,
+				C2E893682486CD3100105078 /* WineImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanessa.WineTimeCoreData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wine Time!";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanessa.WineTimeCoreData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wine Time!";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
